@@ -1,0 +1,46 @@
+import pandas as pd
+df = pd.read_csv('pokemon_data.csv')
+#use any code as required
+"""
+print(df)
+print(df.columns)
+print(df[['Name', 'Type 1', 'HP']])
+print('df head')
+
+print(df.head(3))
+print('df tail')
+print(df.tail(10))
+
+print('type of data')
+
+print(df.dtypes)
+
+print('  ')
+
+print('index')
+print(df.index)
+
+print('  ')
+
+print('column name')
+
+print(df.columns)
+
+print('  ')
+
+print('values')
+
+print(df.values)
+
+print(df.describe())
+print("speed in descending order")
+
+print(df.sort_values('Legendary', ascending = False))
+print(df.Generation)
+print(df[2:4])
+
+
+#filtering
+
+print(df[df['Generation'].isin([1])])
+"""
